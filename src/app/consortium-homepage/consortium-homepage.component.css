@@ -1,0 +1,277 @@
+body{
+    overflow-x: hidden;
+}
+/*************************NAVBAR START*****************************/
+.item-drop-cons:hover{background-color:rgba(76,175,80,1); color: white;transition-duration: 1s;}
+.trans:hover{transform: translateY(20px);}
+.divider-drop-cons{margin:0px!important;}
+.dropdown-menus{padding: 0px!important;}
+.item-drop-cons{padding: 10px!important;}
+/********************************NAVBAR END****************************************/
+/**************************header-section start***********************************/
+.acaheader{
+    width: 100%;
+    height: auto;
+  }
+  .bg{
+    background-color: #292C7D;
+  }
+  .learn3{
+    margin-left: 175px;
+  }
+  
+  #homeid1{
+    margin-top: 40px;
+    height: 400px;
+  }
+  #homeid{
+    margin-top: 40px;
+    height: auto;
+  }
+  .text5{
+    padding: 0px !important;
+  }
+  .banner3 {
+  margin-top: 8px;
+  color: #636161;
+  }
+  
+  .banner3 h1 {
+  margin:30px 0 40px;
+  font-weight: 600;
+  font-size: 45px;
+  text-align: center;
+  }
+  
+  .banner3 p{
+  font-size: 24px;
+  text-align: justify;
+  }
+  
+  
+  
+  /*.banner img {
+  max-height: 500px;
+  }*/
+  @media (max-width:375px){
+    .banner3 a{
+      padding:15px 13px;
+    }
+    #socialmedia a{
+      margin-left: -5px !important;
+      font-size: 0px !important;
+      color: #292C7D;
+    }
+    #socialmedia1 a{
+      margin-left: -5px !important;
+      font-size: 0px !important;
+      color: #292C7D;
+    }
+  
+  }
+  
+  .banner3 a{
+  padding: 15px 13px;
+  display: inline-block;
+  color: black;
+  border: 1px solid #6900d1;
+  text-align: center;
+  /* margin-top: 25px; */
+  /* margin-left: 10px; */
+  font-weight: 300;
+  margin:8px 8px;
+  font-family:'Montserrat' , arial;
+  }
+  .banner3 a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color:#6900d1; 
+  padding: 15px 13px;
+  }
+  .owl-carousel .owl-stage-outer
+  {
+    height: 180px;
+  }
+  /*.banner2 {
+  position: absolute;
+  bottom: 174px;
+  left: 300px;
+  }*/
+  @media screen and (max-width: 500px){
+    .tophead2{text-align: center;margin-top: 20px !important;}
+    .tophead1{text-align: center!important;}
+    .imgwidth{width: 85%;float: right;}
+    .accordion{width: 95%!important;}
+    #homeid h1{
+      font-size: 30px !important;
+      margin-top: -30px !important;
+    }
+    #homeid1 h1{
+      font-size: 30px !important;
+      margin-top: -30px !important;
+    }
+   
+  .first{
+      margin: 0px;
+    }
+    .banner3 h1 {
+      margin:-40px 0 30px 0px !important;
+      font-weight: 600 !important;
+      font-size: 35px !important;
+      text-align: center;
+      }
+      .banner3 img{
+        margin-top: -40px;
+      }
+      
+      .banner3 p{
+      font-size: 20px !important;
+      text-align:justify;
+      padding: 0px 5px;
+      margin-top: -10px;
+      }
+      /* .banner3 a{ */
+        /* padding: 15px 20px; */
+        /* margin-left: 22px; */
+      /* } */
+  }
+  /**************************header-section end***********************************/
+/**************************header-section start***********************************/
+.link-nav:hover{
+    color:rgba(76,175,80,1) !important; 
+  }
+  .banner {
+    text-align: center;
+  margin-top: 8px;
+  color: #636161;
+  }
+  
+  .banner h1 {
+  margin:70px 0 0px;
+  font-weight: 600;
+  font-size: 50px;
+  }
+  
+  .banner p{
+  font-size: 24px;
+  }
+  .banner a{
+  padding: 15px 30px;
+  display: inline-block;
+  color: black;
+  border: 1px solid rgba(76,175,80,1);
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 300;
+  font-family:'Montserrat' , arial;
+  }
+  .banner a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color:rgba(76,175,80,1); 
+  }
+  /**************************header-section END***********************************/
+  /******************************Tailored for your needs SEC START***************************/
+.services-section{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background:rgba(236,239,241 ,1);
+    border-radius: 0 0 40% 40%;
+  }
+  .card-serv{
+  border:none;
+  border-radius:25px;
+  }
+  .card-serv:hover {
+    transform: translateY(-20px);
+    transition-duration: 0.5s;
+    box-shadow: 5px 10px 20px 10px rgba(0,0,0,0.5);
+  }
+  
+  /******************************Tailored for your needs SEC END***************************/
+  /****************************consortium-body START******************************/
+  .card-blog{border:1px solid  rgba(76,175,80,1);padding: 20px;}
+  .container-testi {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+  
+  .container-testi::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container-testi img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container-testi span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container-testi {
+        text-align: center;
+    }
+    .container-testi img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+  .carousel-flick{display: none;}
+  .carousel-cell-cons {
+    width: 100%;
+    /*height: 200px;*/
+    margin-right: 10px;
+   /* background: #8C8;*/
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+  /* cell number */
+  .carousel-cell-cons:before {
+    display: block;
+    text-align: center;
+   /* content: counter(carousel-cell);*/
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  
+  /***********consortium media queries***************/
+  @media(max-width: 500px){
+    .mobile-disp{display: none;}
+    .carousel-flick{display: block;}
+  }
+  /*************consoprtium media queries****************/
+  /*****************************consortium body ENDS*********************************/
+  .social-icons:hover{color:rgba(76,175,80,1)!important; }
+
+  /*****************************automotive css****************************/
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height:0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .resp-margin{
+    margin-top: 20px;
+  }

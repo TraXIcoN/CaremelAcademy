@@ -1,0 +1,36 @@
+  /*p{text-align: justify;}*/
+  .avatar {
+    vertical-align: middle;
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    /*background: green;*/
+   /* border-radius: 50%;*/
+  }
+  .card{
+    border-radius: 10px!important;
+  }
+  .card1{
+    border-radius: 10px!important;
+  }
+  .card:hover{
+    box-shadow: 1px 1px 20px 1px #555555;
+    transition-duration: 0.5s;
+    background:  #5cb85c;
+    color: white!important;
+    border: 1px solid white;
+  }
+  .card-body{padding: 10px 0px!important;}
+  .class-margin{margin: auto 0px;}
+  @media(max-width: 1024px){
+    .mobile-font{font-weight:300!important;}
+  }
+  @media(max-width: 768px){
+    .pad-margin{margin-top: 20px;}
+  }
+  @media(max-width: 500px){
+    .mobile-margin{margin-top: 20px;}
+    .card-body{padding:1.25rem!important;}
+    #travel-card{padding-bottom: 40px!important;}
+    
+  }
