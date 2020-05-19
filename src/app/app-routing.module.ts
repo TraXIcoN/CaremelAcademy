@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: './navbar/navbar.component', component: NavbarComponent},
   { path: './footer/footer.component', component: FooterComponent},
   { path: 'contactus', component: ContactusComponent},
+  { path: '',   redirectTo: '/homepage', pathMatch: 'full' },
   { path: 'aboutus', component: AboutusComponent}
 ];
 
