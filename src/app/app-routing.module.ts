@@ -42,6 +42,11 @@ import { ApplicationsComponent } from './applications/applications.component';
 import { ConsortiumContactComponent } from './consortium-contact/consortium-contact.component';
 /****************************Consortium Imports end****************************************/
 
+/****************************Products Imports start****************************************/
+import { ProductsComponent } from './products/products.component';
+/****************************Products Imports end******************************************/
+
+
 
 const routes: Routes = [
   { path: 'homepage', pathMatch: 'full', component: HomepageComponent },
@@ -72,6 +77,7 @@ const routes: Routes = [
   { path: 'operations', component: OperationsComponent },
   { path: 'applications', component: ApplicationsComponent },
   { path: 'consortium-contact', component: ConsortiumContactComponent },
+  { path: 'products', component: ProductsComponent },
 
 ];
 
@@ -108,4 +114,5 @@ export const routingComponents = [
   OperationsComponent,
   ApplicationsComponent,
   ConsortiumContactComponent,
+  ProductsComponent,
 ]

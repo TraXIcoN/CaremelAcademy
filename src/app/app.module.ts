@@ -27,6 +27,7 @@ import { TechnologyComponent } from './technology/technology.component';
 import { OperationsComponent } from './operations/operations.component';
 import { ApplicationsComponent } from './applications/applications.component';
 import { ConsortiumContactComponent } from './consortium-contact/consortium-contact.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { ConsortiumContactComponent } from './consortium-contact/consortium-cont
     TechnologyComponent,
     OperationsComponent,
     ApplicationsComponent,
-    ConsortiumContactComponent
+    ConsortiumContactComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
